@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #e6f2ff;
+    color: #333;
+    display: flex;
+    min-height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    width: 250px;
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 0.5rem;
+}
+
+.sidebar button {
+    background: none;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    text-align: left;
+    width: 100%;
+}
+
+.sidebar button:hover {
+    background-color: #555;
+}
+
+
+.content {
+    flex: 1;
+    padding: 2rem;
+}
+
+
+.collapsible-section {
+    display: none; 
+    margin-bottom: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.collapsible-section.visible {
+    display: block; 
+}
+
+header {
+    background: linear-gradient(135deg, #7bc3f3, #7bc3f3);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(135deg, #005f99, #003d66);
+    color: #fff;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
